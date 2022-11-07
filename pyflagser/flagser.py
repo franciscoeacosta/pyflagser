@@ -109,6 +109,9 @@ def flagser_unweighted(adjacency_matrix, min_dimension=0, max_dimension=np.inf,
         'cell_count': homology.get_cell_count(),
         'euler': homology.get_euler_characteristic()
     }
+
+    print('testing for changes')
+
     return out
 
 
