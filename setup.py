@@ -29,10 +29,11 @@ with codecs.open('README.rst', encoding='utf-8-sig') as f:
 LONG_DESCRIPTION_TYPE = 'text/x-rst'
 MAINTAINER = 'Guillaume Tauzin, Umberto Lupo'
 MAINTAINER_EMAIL = 'maintainers@giotto.ai'
-URL = 'https://github.com/giotto-ai/pyflagser'
+URL = 'https://github.com/alibayeh/pyflagser'
 LICENSE = 'GNU AGPLv3'
 VERSION = __version__  # noqa
-DOWNLOAD_URL = f"https://github.com/giotto-ai/pyflagser/tarball/v{VERSION}"
+# DOWNLOAD_URL = f"https://github.com/giotto-ai/pyflagser/tarball/v{VERSION}"
+DOWNLOAD_URL = f"https://github.com/alibayeh/pyflagser/archive/refs/heads/master.zip"
 VERSION = __version__ # noqa
 CLASSIFIERS = ['Intended Audience :: Science/Research',
                'Intended Audience :: Developers',
